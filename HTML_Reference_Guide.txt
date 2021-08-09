@@ -1,0 +1,215 @@
+HTML Reference Sheet
+
+HTML General Format
+
+<!DOCTYPE html>
+<html>
+  <head> "CSS File goes here"
+  </head>
+  <title>"Title_Name_to_appear_on_Tab"</title>
+  <body>
+    <header>
+      <nav>
+      </nav>
+      <h1>
+      </h1>
+    <header>
+    <section> "id for NavBar goes here"
+      <article>
+        <p>
+        </p>
+      </article>
+  </body>
+  <footer> "id for NavBar goes here"
+    <p>
+    </p>
+  </footer>
+<html>
+
+
+Bolding Text
+<strong>"Text"</strong>
+
+Italicizing Text
+<em>"Text"</em>
+
+
+Adding a CSS File to HTML Document
+
+<link rel="stylesheet" type="text/css" href="style.css"
+
+
+Adding a Navbar for navigation (in-page/out-of-page)
+
+In page:
+
+<nav>
+  <ul>
+    <li><a href="#location">location_text</a></li>
+</nav>
+
+Out of page within Same Tab:
+
+<nav>
+  <ul>
+    <li><a href="external_URL">location_text</a></li>
+</nav>
+
+Out of page in Different Tab:
+
+<nav>
+  <ul>
+    <li><a href="external_URL" target="_blank">location_text</a></li>
+</nav>
+
+Referencing a location in the same webpage using an anchor (Must call a section "id" from file)
+
+<a href="#location">location_text</a>
+
+
+Linking via picture (In-page/Out-of-page)
+
+In page:
+
+<a href="#location"> <img src="source"> </a>
+
+Out of page:
+
+<a href="external_URL" target=_blank"> <img src="source"> </a>
+
+Adding an image to a website with caption
+
+<img src="source">
+<figcaption>"text"</figcaption>
+
+
+Adding a video to a website with controls and failure to load (without autoplay/with autoplay)
+
+Without Autoplay:
+
+<video src="source" controls>Video failed to load</video>
+
+With Autoplay:
+
+<video src="source" controls autoplay>Video failed to load</video>
+
+
+Adding an audio file to a website with controls and failure to load (no autoplay/autoplay)
+
+<audio src="source" controls>Audio failed to load</audio>
+
+<audio src="source" controls autoplay>Audio failed to load</audio>
+
+
+Embedding a file from an external site
+
+<embed src="source">
+
+Making a Bulleted List
+
+<ul>
+  <li>"Item"</li>
+</ul>
+
+
+Making a Numbered List
+
+<ol>
+  <li>"Item"</li>
+</ol>
+
+
+Adding a Table
+
+<table>
+  <thead>
+    <tr>
+      <th> "Use 'class="left, right, center, justify...etc"' to modify alignment"
+        <h1-6>"Text"</h1-6>
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td> "Use 'class="left, right, center, justify...etc"' to modify alignment"
+        <h1-6>"Text"</h1-6>
+    </tr>
+  <tbody>
+</table>
+
+
+Making a Form Submit Button
+
+<input type="submit" value="Text"
+
+
+Making a Form Submit Button Action
+
+<form action="Information_Submit_Location.html" method="Get_or_POST">
+
+
+Making a Form Text Input Required
+
+<label for="Input_id">"Text"</label>
+<input type="text" name="Input_name" id="Input_id" required
+
+
+Making a Form Number Input Required
+<label for="Input_id">"Text"</label>
+<input type="number" name="Input_name" id="Input_id" required>
+
+
+Making a Form Range Input Required
+
+<label for="Input_id">"Text"</label>
+<span>"Left_Text"</span>
+<input type="range" name="Input_name" id="Input_id" value="Default_value" min="Minimum_value" max="Maximum_value">
+<span>"Right_Text"</span>
+
+
+Making a Form Checkbox (Text Left/Right)
+
+Text Left
+<label for="Input_id">"Text"</label>
+<input type="checkbox" name="Input_name" id="Input_id" value="Input_id"
+
+Text Right
+<input type="checkbox" name="Input_name" id="Input_id" value="Input_id"
+<label for="Input_id">"Text"</label>
+
+
+Making a Form Radio Button (Text Left/Right)
+
+Text Left
+
+<label for="Input_id">"Input_id"</label>
+<input type="radio" name="Input_name" id="Input_id" value="Input_id"
+
+Text Right
+
+<input type="radio" name="Input_name" id="Input_id" value="Input_id"
+<label for="Input_id">"Input_id"</label>
+
+
+Making a Form Selection
+
+<label for="Input_id">"Input_id"</label>
+<select name="Selection_category" id="Selection_category">
+  <option value="Option_name">"Option_name"</option>
+</select>
+
+
+Making a Form Datalist
+
+<label for="Input_id">"Text"</label>
+<input list="Datalist-id" id="Input_id2" name="Input_id2">
+  <datalist id="Input_id1">
+    <option value="Option_name"></option> 
+  </datalist>
+
+
+Making a Form Textbox
+
+<label for="Input_id">"Text"</label>
+<textarea name="Input_id" id="Input_id" rows="Number_of_rows" cols="Number_of_columns">
+</textarea>

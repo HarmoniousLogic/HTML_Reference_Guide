@@ -1,4 +1,4 @@
-HTML Reference Sheet: By Keith T. Lowe 
+HTML Reference Guide V1.01: By Keith T. Lowe 
 Most Recent Version can be found at:
 https://github.com/HarmoniousLogic/HTML_Reference_Guide/find/main
 
@@ -15,18 +15,19 @@ https://github.com/HarmoniousLogic/HTML_Reference_Guide/find/main
       </nav>
       <h1>
       </h1>
-    <header>
+    </header>
     <section> <!--id for NavBar goes here-->
       <article>
         <p>
         </p>
       </article>
+    </section>
   </body>
   <footer> <!--id for NavBar goes here-->
     <p>
     </p>
   </footer>
-<html>
+</html>
 
 
 <!--Bolding Text-->
@@ -142,13 +143,13 @@ https://github.com/HarmoniousLogic/HTML_Reference_Guide/find/main
       <td> <!--Use 'class="left, right, center, justify...etc"' to modify alignment-->
         <h1-6>"Text"</h1-6>
     </tr>
-  <tbody>
+  </tbody>
 </table>
 
 
 <!--Making a Form: Submit Button-->
 
-<input type="submit" value="Text"
+<input type="submit" value="Text">
 
 
 <!--Making a Form: Submit Button Action-->
@@ -159,7 +160,7 @@ https://github.com/HarmoniousLogic/HTML_Reference_Guide/find/main
 <!--Making a Form: Text Input Required-->
 
 <label for="Input_id">"Text"</label>
-<input type="text" name="Input_name" id="Input_id" required
+<input type="text" name="Input_name" id="Input_id" required>
 
 
 <!--Making a Form: Number Input Required-->
@@ -180,11 +181,11 @@ https://github.com/HarmoniousLogic/HTML_Reference_Guide/find/main
 <!--Text Left-->
 
 <label for="Input_id">"Text"</label>
-<input type="checkbox" name="Input_name" id="Input_id" value="Input_id"
+<input type="checkbox" name="Input_name" id="Input_id" value="Input_id">
 
 <!--Text Right-->
 
-<input type="checkbox" name="Input_name" id="Input_id" value="Input_id"
+<input type="checkbox" name="Input_name" id="Input_id" value="Input_id">
 <label for="Input_id">"Text"</label>
 
 
@@ -193,11 +194,11 @@ https://github.com/HarmoniousLogic/HTML_Reference_Guide/find/main
 <!--Text Left-->
 
 <label for="Input_id">"Input_id"</label>
-<input type="radio" name="Input_name" id="Input_id" value="Input_id"
+<input type="radio" name="Input_name" id="Input_id" value="Input_id">
 
 <!--Text Right-->
 
-<input type="radio" name="Input_name" id="Input_id" value="Input_id"
+<input type="radio" name="Input_name" id="Input_id" value="Input_id">
 <label for="Input_id">"Input_id"</label>
 
 
